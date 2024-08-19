@@ -15,7 +15,7 @@
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/PaperClean.git
+git clone https://github.com/gzy02/PaperClean.git
 cd PaperClean
 ```
 
@@ -27,9 +27,9 @@ cd PaperClean
     # Configuration file for the PaperClean script
     
     retain_file_extensions_list = [".bbl", ".tex", ".bst", ".sty", ".bib"]
-    tex_dir = r"C:\Users\ustc\Dropbox\AAAI25_GraphRAG\GraphRAG"
+    tex_dir = r"your tex directory"
     main_tex_name = "main.tex"
-    output_dir = "./test/"
+    output_dir = r"your output directory"
     remove_comments = True
     merge_tex = True    
     ```
